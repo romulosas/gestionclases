@@ -1,11 +1,5 @@
-/**
- * Created by Romulo Sant´Ana.
- * User: c#
- * Date: 06-10-2019
- * Time: 18:39
- */
+<script src="{{ asset('theme/assets/advanced-datatable/media/js/jquery.dataTables.js') }}"></script>
+<script src="{{ asset('theme/assets/data-tables/DT_bootstrap.js') }}"></script>
 
-<!-- dynamic table -->
-<link href="{{ asset('theme/assets/advanced-datatable/media/css/demo_page.css') }}" rel="stylesheet">
-<link href="{{ asset('theme/assets/advanced-datatable/media/css/demo_table.css') }}" rel="stylesheet">
-<link href="{{ asset('theme/assets/data-tables/DT_bootstrap.css') }}" rel="stylesheet">
+<!--dynamic table initialization -->
+<script src="{{ asset('theme/js/dynamic_table_init.js') }}"></script>
