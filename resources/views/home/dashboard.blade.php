@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.dashboard')
 
 @section('section-content-totals')
     @include('home.partials.dashboard.admin.content-totals')
