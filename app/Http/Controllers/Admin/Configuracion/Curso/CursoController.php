@@ -10,6 +10,11 @@ use App\Models\Admin\Configuracion\CursoTipo;
 
 class CursoController extends AppController
 {
+    public function __construct()
+    {
+        $this->setTitle("Curso");
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -18,6 +23,7 @@ class CursoController extends AppController
     public function index()
     {
         //
+        return view('admin.configuracion.curso.index', ['viewTitle' => $this->viewTitle]);
     }
 
     /**
